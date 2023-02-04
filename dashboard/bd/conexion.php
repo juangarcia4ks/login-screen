@@ -1,7 +1,7 @@
 <?php 
 class Conexion{	  
     public static function Conectar() {        
-        define('servidor','mariadb.csn.svc.cluster.local');
+        define('servidor','mysql.videodemo.svc.cluster.local');
         define('nombre_bd','sampledb');
         define('usuario','userRCU');
         define('password','iDhkh1l3dpbn72VN');					        
